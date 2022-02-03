@@ -1,0 +1,16 @@
+Fitting 1 folds for each of 75 candidates, totalling 75 fits
+[CV 1/1] END ........C=0.1, gamma=1, kernel=rbf;, score=0.436 total time=   0.1s
+[CV 1/1] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.436 total time=   0.1s
+[CV 1/1] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.436 total time=   0.1s
+[CV 1/1] END ..C=0.1, gamma=0.01, kernel=linear;, score=0.550 total time=  54.5s
+[CV 1/1] END ...C=0.1, gamma=0.1, kernel=linear;, score=0.550 total time=  57.4s
+[CV 1/1] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.436 total time=   0.1s
+[CV 1/1] END .C=0.1, gamma=0.001, kernel=linear;, score=0.550 total time= 1.0min
+[CV 1/1] END .....C=0.1, gamma=1, kernel=linear;, score=0.550 total time= 1.2min
+[CV 1/1] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.436 total time=   0.1s
+[CV 1/1] END C=0.1, gamma=0.0001, kernel=linear;, score=0.550 total time=  52.3s
+[CV 1/1] END .......C=1, gamma=1, kernel=linear;, score=0.559 total time= 1.4min
+[CV 1/1] END .....C=1, gamma=0.1, kernel=linear;, score=0.559 total time= 1.6min
+[CV 1/1] END ..C=0.1, gamma=0.0001, kernel=poly;, score=0.673 total time=50.4min
+[CV 1/1] END ........C=1, gamma=0.1, kernel=rbf;, score=0.436 total time=   0.1s
+[CV 1/1] END ....C=1, gamma=0.01, kernel=linear;, score=0.559 total time= 1.9min
