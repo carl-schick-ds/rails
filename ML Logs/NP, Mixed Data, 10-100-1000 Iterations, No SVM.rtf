@@ -1,0 +1,1380 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Tahoma-Bold;\f2\fnil\fcharset0 Tahoma;
+}
+{\colortbl;\red255\green255\blue255;\red38\green37\blue36;\red255\green255\blue255;\red242\green242\blue242;
+}
+{\*\expandedcolortbl;;\cssrgb\c19608\c19216\c18824;\cssrgb\c100000\c100000\c100000;\cssrgb\c96078\c96078\c96078;
+}
+\margl1440\margr1440\vieww25300\viewh12840\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Executed in 3 hr 5 min\
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 \expnd0\expndtw0\kerning0
+\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Best Params\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Class\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Iterations\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Features\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Accuracy\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Precision\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Sensitivity\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Specificity\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 AUC\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 K\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 400\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.844\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.787\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.881\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.815\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.921\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.687\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 1400\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.837\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.844\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.850\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.822\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.920\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.672\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 1200\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.833\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.857\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.797\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.869\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.895\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.666\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 1800\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.833\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.828\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.861\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.803\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.890\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.665\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 1200\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.833\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.858\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.799\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.868\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.915\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.667\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 1800\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.826\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.831\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.831\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.821\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.918\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.653\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 600\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.823\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.826\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.842\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.801\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.902\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.644\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 1400\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.806\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.847\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.755\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.858\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.889\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.612\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 1800\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.806\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.812\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.801\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.810\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.899\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.611\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 400\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.788\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.763\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.823\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.755\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.855\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.577\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 6\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.781\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.801\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.806\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.750\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.835\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.557\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 8\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.781\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.769\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.796\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.767\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.859\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.563\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 3\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.781\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.755\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.833\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.729\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.823\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.562\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 1400\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.781\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.735\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.838\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.730\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.890\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.564\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 3\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.778\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.797\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.753\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.803\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.823\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.556\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 9\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.778\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.768\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.800\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.755\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.847\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.555\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 3\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.771\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.744\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.817\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.726\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.818\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.542\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 3\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.771\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.790\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.790\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.748\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.817\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.538\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 4\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.767\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.738\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.825\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.710\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.846\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.535\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 6\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.767\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.738\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.787\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.750\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.848\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.535\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 4\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.764\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.794\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.774\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.752\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.842\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.524\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 3\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.764\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.792\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.761\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.767\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.815\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.527\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Random Forest\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_estimators': 1400\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.760\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.711\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.803\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.724\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.849\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.522\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 6\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.753\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.800\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.734\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.777\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.827\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.507\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 4\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.750\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.757\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.757\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.743\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.805\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.500\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 3\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.750\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.704\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.799\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.708\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.814\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.502\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 5\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.750\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.707\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.791\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.714\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.814\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.501\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 5\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.743\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.715\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.777\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.711\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.801\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.487\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 8\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.736\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.716\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.812\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.655\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.806\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.469\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 3\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.736\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.759\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.718\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.755\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.773\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.473\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 3\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.736\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.745\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.735\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.738\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.791\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.472\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 3\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.736\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.695\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.778\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.699\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.792\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.474\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 6\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.733\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.682\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.789\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.684\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.803\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.468\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 1\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 10\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.726\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.767\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.723\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.729\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.726\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.449\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat4 \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clcbpat4 \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clcbpat4 \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clcbpat4 \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clcbpat4 \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clcbpat4 \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clcbpat4 \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clcbpat4 \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clcbpat4 \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clcbpat4 \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 3\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 100\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 All Scaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.715\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.719\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.699\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.731\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.770\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.430\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trcbpat3 \tamart240 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4080\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx785
+\clvertalc \clshdrawnil \clwWidth3060\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1570
+\clvertalc \clshdrawnil \clwWidth820\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2356
+\clvertalc \clshdrawnil \clwWidth1320\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3141
+\clvertalc \clshdrawnil \clwWidth2240\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx3927
+\clvertalc \clshdrawnil \clwWidth1100\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4712
+\clvertalc \clshdrawnil \clwWidth1120\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5498
+\clvertalc \clshdrawnil \clwWidth1280\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx6283
+\clvertalc \clshdrawnil \clwWidth1260\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7069
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7854
+\clvertalc \clshdrawnil \clwWidth600\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f1\b \cf2 Weighted k-nearest neighbor\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f2\b0 \cf2 \{'n_neighbors': 6\}\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 P\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 1000\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 Partial Unscaled\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.708\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.732\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.693\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.725\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.785\cell 
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+\cf2 0.417\cell \lastrow\row
+}
