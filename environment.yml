@@ -1,4 +1,4 @@
-name: rails
+name: pj-rails
 channels:
   - defaults
 dependencies:
